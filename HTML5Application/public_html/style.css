@@ -9,6 +9,11 @@
     background:  #d6d6c2;
 
 }
+
+.logo{
+    height: 80px;
+}
+
 body {
     scrollbar-base-color: #C0C0C0;
     scrollbar-base-color: #C0C0C0;
@@ -26,6 +31,17 @@ nav{
 
 nav.nav-extended .nav-content{
     margin-left: 564px !important;
+/*    border: solid;*/
+}
+
+.crumbs{
+/*    border: solid;*/
+    margin-left: 30px !important;
+    width: 500px !important;
+}
+
+.line-right{
+    border-right: 1px !important;
 }
 
 .tabs{

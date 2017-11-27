@@ -14,7 +14,8 @@
     <body>
         <nav class="nav-extended">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Logo</a>
+                <img src="iconLogo.png" alt="Logo" class="logo brand-logo">
+                
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="sass.html">Sass</a></li>
@@ -30,12 +31,26 @@
             <div class="nav-content">
                 <ul class="tabs tabs-transparent">
                     <li class="tab"><a href="#test1">Noticias</a></li>
+                    <li class="tab disabled"><a>|</a></li>
                     <li class="tab"><a class="active" href="#test2">Tecnologia</a></li>
+                    <li class="tab disabled"><a>|</a></li>
                     <li class="tab"><a href="#test3">Oportunidades</a></li>
+                    <li class="tab disabled"><a>|</a></li>
                     <li class="tab"><a href="#test4">(In)Utilidades</a></li>
+                    <li class="tab disabled"><a>|</a></li>
                     <li class="tab"><a href="#test4">Games</a></li>
                 </ul>
             </div>
+            
+<!--            Breadcrumbs-->
+            <div class="crumbs">
+                <div class="col s12">
+                    <a href="#!" class="breadcrumb">Inicio</a>
+                    <a href="#!" class="breadcrumb">Games</a>
+                    <a href="#!" class="breadcrumb">Dicas</a>
+                </div>
+            </div>
+            
         </nav>
         <div id="test1" class="col s12">Test 1</div>
         <div id="test2" class="col s12">Test 2</div>
