@@ -19,3 +19,18 @@ body {
     scrollbar-shadow-color: #C0C0C0;
     scrollbar-dark-shadow-color: #C0C0C0;
 }
+
+nav{
+    background-color: #006B43 !important;
+}
+
+nav.nav-extended .nav-content{
+    margin-left: 564px !important;
+}
+
+.tabs{
+    width: 74% !important;
+}
+/*.indicator{
+    border: solid black 1px;
+}*/
