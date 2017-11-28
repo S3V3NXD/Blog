@@ -9,6 +9,13 @@
     background:  #d6d6c2;
 
 }
+
+.logo{
+    height: 80px;
+    padding: 2px 14px 0px 10px !important;
+    margin: 10px !important;
+}
+
 body {
     scrollbar-base-color: #C0C0C0;
     scrollbar-base-color: #C0C0C0;
@@ -26,7 +33,24 @@ nav{
 
 nav.nav-extended .nav-content{
     margin-left: 564px !important;
+/*    border: solid;*/
 }
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    line-height: 40px !important;
+}
+
+.crumbs{
+/*    border: solid;*/
+    margin-left: 30px !important;
+    width: 500px !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color: black !important;
+}
+
+
 
 .tabs{
     width: 74% !important;
@@ -34,3 +58,8 @@ nav.nav-extended .nav-content{
 /*.indicator{
     border: solid black 1px;
 }*/
+
+.hide-on-med-and-down{
+    border: solid !important;
+    
+}
