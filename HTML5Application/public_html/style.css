@@ -60,6 +60,47 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
 }*/
 
 .hide-on-med-and-down{
-    border: solid !important;
+   border: solid !important;
+/*    padding-bottom: 0px !important;*/
+    padding-left: 30px !important;
+    margin-right: 50px !important;
     
 }
+
+.hide-on-med-and-down > li{
+/*    border-right: solid white 1px;*/
+    font-size: 50px;
+}
+
+.hide-on-med-and-down > li > a{
+    font-size: 10px;
+}
+
+#namanyay-search-btn {
+background:#0099ff;
+color:white;
+font: 'trebuchet ms', trebuchet;
+padding:10px 20px;
+border-radius:0 5px 5px 0;
+-moz-border-radius:0 5px 5px 0;
+-webkit-border-radius:0 5px 5px 0;
+-o-border-radius:0 5px 5px 0;
+border:0 none;
+font-weight:bold;
+}
+ 
+#namanyay-search-box {
+background: #eee;
+-moz-border-radius:5px 0 0 5px;
+-o-border-radius:5px 0 0 5px;
+border:0 none;
+width:300px;
+color: black;
+ }
+ 
+ .pesquisa{
+     
+/*   padding-top: 60px !important;
+     padding-right: 300px;*/
+     
+ }
