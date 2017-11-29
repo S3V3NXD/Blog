@@ -32,12 +32,13 @@ nav{
 }
 
 nav.nav-extended .nav-content{
-    margin-left: 564px !important;
+    margin-left: 200px !important;
+    width: 78em;
 /*    border: solid;*/
 }
 
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
-    line-height: 40px !important;
+    line-height: 34px !important;
 }
 
 .crumbs{
@@ -60,10 +61,11 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
 }*/
 
 .hide-on-med-and-down{
-   border: solid !important;
+/*   border: solid !important;*/
 /*    padding-bottom: 0px !important;*/
-    padding-left: 30px !important;
+    padding-left: 50px !important;
     margin-right: 50px !important;
+    padding-right: 50px;
     
 }
 
@@ -95,6 +97,7 @@ background: #eee;
 -o-border-radius:5px 0 0 5px;
 border:0 none;
 width:300px;
+height: 33px;
 color: black;
  }
  
@@ -104,3 +107,25 @@ color: black;
      padding-right: 300px;*/
      
  }
+ .namanyay-search-btn{
+     width: 50px;
+     margin: 0px 0px -14px 0px;
+ }
+
+ button{
+     height: 32px !important;
+ }
+ 
+ .btn{
+     padding: 0 0.5rem !important;
+     background-color: transparent !important;
+ }
+ 
+ .iconLogin{
+     height: 20px;
+ }
+ 
+ .container{
+/*     border: solid black 1px;*/
+ }
+ 
